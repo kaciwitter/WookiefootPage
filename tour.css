@@ -1,0 +1,69 @@
+table {
+  width: 500px
+  border-spacing: 40px;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  text-align: left
+}
+
+table, th, td {
+  border: 2px
+  solid #237778
+}
+
+th, td {
+  padding: 10px
+}
+
+tr:nth-child(even) {
+  background-color: #ffbf63
+}
+
+tr:nth-child(odd) {
+  background-color: #feecad
+}
+
+body {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: white;
+  position: relative;
+}
+
+header {
+  height: 150px;
+}
+
+header img {
+  width: 100px;
+  position: absolute;
+  right: 32.5px;
+  top: 32.5px;
+}
+
+h1 {
+  font-family: Staatliches;
+  font-size: 50px;
+  line-height: 140px;
+  margin: 0 0 0 32.5px;
+}
+
+h2 {
+  margin-top: 0;
+  font-family: Staatliches;
+  text-align: center;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  background: url(images/background.jpg);
+}
+
+button {
+  background-color: #8098e0
+}
